@@ -1,2 +1,6 @@
 1. create git rep and clne in lcal
 2. create code.py and code to it. it will save a code output int sample.data.csv to a data directry.
+3. do a git add-commit-push before initializing dvc
+#pip install dvc
+4. Now we do "dvc init"(create .dvcignore, .dvc)
+
