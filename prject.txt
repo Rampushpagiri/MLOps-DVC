@@ -1,6 +1,20 @@
-1. create git rep and clne in lcal
-2. create code.py and code to it. it will save a code output int sample.data.csv to a data directry.
-3. do a git add-commit-push before initializing dvc
+1.create git rep and clne in lcal
+2.create code.py and code to it. it will save a code output int sample.data.csv to a data directry.
+3.do a git add-commit-push before initializing dvc
 #pip install dvc
-4. Now we do "dvc init"(create .dvcignore, .dvc)
+4.Now we do "dvc init"(create .dvcignore, .dvc)
+5.now do mkdir s3(create a new directory)
+6.now we do "dvc remote add -d myremote s3"
+7.next "dvc add data/"
+(basically we remve data flder from git and haded over to dvc to t manage)
+
+8. Now dvc commit and then dvc push
+9.n0w make changes to my_code.py
+10.Again "dvc commit and then dvc push"
+11. then git add-commit-push(savinf V2 of our data)
+12. check dvc status/git status everything shuld be upt date
+13. then git add-commit-push(savinf V3 of our data)
+12. check dvc status/git status everything shuld be upt date
+
+
 
