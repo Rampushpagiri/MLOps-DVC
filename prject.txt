@@ -1,0 +1,2 @@
+1. create git rep and clne in lcal
+2. create code.py and code to it. it will save a code output int sample.data.csv to a data directry.
